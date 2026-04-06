@@ -10,7 +10,7 @@
 
 **数字秘书**是数字员工的基础形态，一个常驻桌面的 AI 工作助手。
 
-它由 **Skill 智能体** + **Rust 桌面应用** 组成，7×24小时在本地运行，接管你的工作事务管理：
+它搭配你的本地智能体代理（如 **Claude Code**、**OpenClaw** 等），由 **Skill 智能体** + **Rust 桌面应用** 组成，7×24小时在本地运行，接管你的工作事务管理：
 
 - 🎯 **自动规划**：根据你的工作风格智能安排日程
 - 📊 **全程跟进**：自动跟踪进度、识别阻塞、推送提醒
@@ -247,7 +247,7 @@ cd dazi-todo-releases
 
 ### 2. 加载 Skill
 
-将 `SKILL.md` 加载到你的 AI Agent（Claude Code / OpenClaw 等），Agent 会自动：
+在 **Claude Code** 或 **OpenClaw** 中加载 `SKILL.md` 文件，Agent 会自动：
 
 - 启动桌面应用 `app/dazi-todo.exe`
 - 初始化 `workspace/` 目录及核心文件
