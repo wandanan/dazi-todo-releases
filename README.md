@@ -238,15 +238,28 @@ python -m dazi.agent.daemon --mode=secretary
 
 ## 快速开始
 
-### 1. 安装
+### 1. 克隆项目
 
 ```bash
-# 克隆项目
-https://github.com/wandanan/dazi-todo-releases.git
-
-# 加载skill
-
+git clone https://github.com/wandanan/dazi-todo-releases.git
+cd dazi-todo-releases
 ```
+
+### 2. 加载 Skill
+
+将 `SKILL.md` 加载到你的 AI Agent（Claude Code / OpenClaw 等），Agent 会自动：
+
+- 启动桌面应用 `app/dazi-todo.exe`
+- 初始化 `workspace/` 目录及核心文件
+- 显示待办窗口
+- 开始服务
+
+### 3. 开始使用
+
+Agent 初始化完成后，你就可以：
+- 通过对话添加/管理待办
+- 使用 CLI 工具控制窗口
+- 让秘书帮你规划日程
 
 
 ---
